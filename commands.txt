@@ -1,0 +1,18 @@
+
+
+
+
+***   Proton VPN Linux CLI   ***
+
+Login
+    `protonvpn signin [username]`
+
+How to connect to a VPN server
+    `protonvpn connect`
+
+    `protonvpn disconnect`
+
+Logout
+    `protonvpn signout,[object Object]`
+
+*** END  Proton VPN Linux CLI   ***
