@@ -45,16 +45,16 @@ class Chatbot:
             temperature=0.7
         )
         
-        response = response.choices[0].message.content
+        response_message = response.choices[0].message.content
         
         self.history.append({
             "role":"assistant",
-            "content": response
+            "content": response_message
         })
         
         self._update_cost(response.usage)
         
-        return response
+        return response_message
     
     def _update_cost(self, usage) -> None:
         """Calcula y actualiza el costo de la llamada"""
